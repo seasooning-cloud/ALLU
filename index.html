@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALLU — Top for Every Body</title>
+  <meta name="description" content="ALLU: Gen Z streetwear brand with inclusive sizing. Mix & match your style with our timeless tops. XS to XXL+.">
+  <meta property="og:title" content="ALLU — Top for Every Body">
+  <meta property="og:description" content="Inclusive sizing streetwear. Mix & match your perfect outfit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="#" class="logo">ALLU</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#products">Shop</a>
+      <a href="#mix-match">Mix &amp; Match</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#sizing">Sizing</a>
+    </div>
+    <div class="nav-icons">
+      <a href="https://instagram.com/alluapparel" target="_blank" rel="noopener" aria-label="Instagram">♡</a>
+      <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" aria-label="Shop">🛍</a>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#products">Shop</a>
+    <a href="#mix-match">Mix &amp; Match</a>
+    <a href="#lookbook">Lookbook</a>
+    <a href="#sizing">Sizing</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-container">
+    <div class="hero-text fade-in">
+      <p class="hero-label">Top for Every Body</p>
+      <h1>Top for<br>Every Body</h1>
+      <p class="hero-desc">Brand fashion streetwear yang mengutamakan inklusivitas, kenyamanan, dan gaya yang unik. Mix &amp; Match bebas berekspresi, untuk semua ukuran tubuh.</p>
+      <div class="hero-buttons">
+        <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-primary">Shop Now</a>
+        <a href="#mix-match" class="btn btn-outline">Try Mix &amp; Match</a>
+      </div>
+    </div>
+    <div class="hero-image fade-in fade-delay-1">
+      <img src="assets/images/fleur-front.png" alt="ALLU Fleur Top Vol 1">
+      <div class="hero-badge">
+        <span class="badge-label">Size Inclusive</span>
+        <span class="badge-value">XS — XXL+</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products" id="products">
+  <div class="section-container">
+    <p class="section-label">Our Collection</p>
+    <h2>The Essentials</h2>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card fade-in">
+        <div class="product-gallery">
+          <img src="assets/images/fleur-front.png" alt="Fleur Top Vol 1" class="product-main-img" id="product1Img">
+          <div class="product-thumbs">
+            <img src="assets/images/fleur-front.png" alt="Front" class="thumb active" onclick="changeImg('product1Img', this, 'assets/images/fleur-front.png')">
+            <img src="assets/images/fleur-side.png" alt="Side" class="thumb" onclick="changeImg('product1Img', this, 'assets/images/fleur-side.png')">
+            <img src="assets/images/fleur-back.png" alt="Back" class="thumb" onclick="changeImg('product1Img', this, 'assets/images/fleur-back.png')">
+          </div>
+        </div>
+        <div class="product-info">
+          <h3>Fleur Top Vol 1</h3>
+          <p class="product-price">Rp135.000</p>
+          <p class="product-desc">Soft knit cardigan for daily styling</p>
+          <ul class="product-details">
+            <li>Premium semi wool</li>
+            <li>Metal flower button</li>
+            <li>Fitted waist shape</li>
+            <li>Long sleeve</li>
+          </ul>
+          <div class="product-actions">
+            <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-primary btn-sm">🛍 Shopee</a>
+            <a href="https://wa.me/6281529967188?text=Halo,%20saya%20tertarik%20dengan%20Fleur%20Top%20Vol%201" target="_blank" rel="noopener" class="btn btn-outline btn-sm">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card fade-in fade-delay-1">
+        <div class="product-gallery">
+          <img src="assets/images/petal-front.png" alt="Petal Knit Top" class="product-main-img" id="product2Img">
+          <div class="product-thumbs">
+            <img src="assets/images/petal-front.png" alt="Front" class="thumb active" onclick="changeImg('product2Img', this, 'assets/images/petal-front.png')">
+            <img src="assets/images/petal-front-2.png" alt="Front 2" class="thumb" onclick="changeImg('product2Img', this, 'assets/images/petal-front-2.png')">
+            <img src="assets/images/petal-back.png" alt="Back" class="thumb" onclick="changeImg('product2Img', this, 'assets/images/petal-back.png')">
+          </div>
+        </div>
+        <div class="product-info">
+          <h3>Petal Knit Top</h3>
+          <p class="product-price">Rp135.000</p>
+          <p class="product-desc">Floral knit top statement piece</p>
+          <ul class="product-details">
+            <li>Premium mohair knit</li>
+            <li>Soft texture</li>
+            <li>Elastic collar</li>
+            <li>Long sleeve</li>
+          </ul>
+          <div class="product-actions">
+            <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-primary btn-sm">🛍 Shopee</a>
+            <a href="https://wa.me/6281529967188?text=Halo,%20saya%20tertarik%20dengan%20Petal%20Knit%20Top" target="_blank" rel="noopener" class="btn btn-outline btn-sm">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MIX & MATCH -->
+<section class="mix-match" id="mix-match">
+  <div class="section-container">
+    <p class="section-label">Mix &amp; Match</p>
+    <h2>Style It. See It. Love It.</h2>
+    <p class="section-subtitle">Create your perfect outfit before you buy</p>
+    <div class="mm-grid">
+      <!-- Selectors -->
+      <div class="mm-selectors">
+        <h3>1. Choose Top</h3>
+        <div class="mm-options" id="topOptions">
+          <button class="mm-option selected" data-index="0" onclick="selectTop(0)">
+            <img src="assets/images/fleur-front.png" alt="Fleur Top Vol 1">
+            <span>Fleur Top Vol 1</span>
+          </button>
+          <button class="mm-option" data-index="1" onclick="selectTop(1)">
+            <img src="assets/images/petal-front.png" alt="Petal Knit Top">
+            <span>Petal Knit Top</span>
+          </button>
+        </div>
+        <h3>2. Choose Bottom</h3>
+        <div class="mm-bottoms" id="bottomOptions">
+          <button class="mm-bottom selected" data-index="0" onclick="selectBottom(0)">Your Denim</button>
+          <button class="mm-bottom" data-index="1" onclick="selectBottom(1)">Your Skirt</button>
+          <button class="mm-bottom" data-index="2" onclick="selectBottom(2)">Your Trousers</button>
+          <button class="mm-bottom" data-index="3" onclick="selectBottom(3)">Your Cargo</button>
+        </div>
+      </div>
+      <!-- Preview -->
+      <div class="mm-preview">
+        <h3>3. Your Look</h3>
+        <div class="mm-preview-card">
+          <img src="assets/images/fleur-front.png" alt="Outfit Preview" id="mmPreviewImg">
+          <div class="mm-preview-label" id="mmPreviewLabel">Fleur Top Vol 1 + Denim Jeans</div>
+        </div>
+        <div class="mm-total">
+          <span>Total</span>
+          <strong id="mmTotal">Rp135.000</strong>
+        </div>
+      </div>
+      <!-- Actions -->
+      <div class="mm-actions">
+        <div class="mm-summary">
+          <h4>Your Selection</h4>
+          <div class="mm-row"><span>Top</span><strong id="mmTopName">Fleur Top Vol 1</strong></div>
+          <div class="mm-row"><span>Bottom</span><strong id="mmBottomName">Denim Jeans</strong></div>
+          <div class="mm-row mm-row-total"><span>Total</span><strong id="mmTotal2">Rp135.000</strong></div>
+          <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-primary btn-full">🛍 Buy This Look</a>
+          <a id="mmWhatsApp" href="https://wa.me/6281529967188?text=Halo,%20saya%20tertarik%20dengan%20outfit:%20Fleur%20Top%20Vol%201%20%2B%20Denim%20Jeans" target="_blank" rel="noopener" class="btn btn-outline btn-full">💬 Chat Us</a>
+          <button class="btn-reset" onclick="resetMM()">↺ Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOOKBOOK -->
+<section class="lookbook" id="lookbook">
+  <div class="section-container">
+    <p class="section-label">Lookbook</p>
+    <h2>Real People. Real Style.</h2>
+    <div class="lookbook-grid">
+      <div class="look-card fade-in">
+        <img src="assets/images/fleur-front.png" alt="Casual Day with Denim">
+        <div class="look-overlay">
+          <p class="look-title">Casual Day with Denim</p>
+          <p class="look-product">Fleur Top Vol 1</p>
+          <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-light btn-xs">🛍 Shop</a>
+        </div>
+      </div>
+      <div class="look-card fade-in fade-delay-1">
+        <img src="assets/images/fleur-side.png" alt="Office Ready">
+        <div class="look-overlay">
+          <p class="look-title">Office Ready</p>
+          <p class="look-product">Fleur Top Vol 1</p>
+          <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-light btn-xs">🛍 Shop</a>
+        </div>
+      </div>
+      <div class="look-card fade-in fade-delay-2">
+        <img src="assets/images/petal-front.png" alt="Statement Streetwear">
+        <div class="look-overlay">
+          <p class="look-title">Statement Streetwear</p>
+          <p class="look-product">Petal Knit Top</p>
+          <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-light btn-xs">🛍 Shop</a>
+        </div>
+      </div>
+      <div class="look-card fade-in fade-delay-3">
+        <img src="assets/images/petal-front-2.png" alt="Weekend Vibes">
+        <div class="look-overlay">
+          <p class="look-title">Weekend Vibes</p>
+          <p class="look-product">Petal Knit Top</p>
+          <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-light btn-xs">🛍 Shop</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIZING -->
+<section class="sizing" id="sizing">
+  <div class="section-container center">
+    <p class="section-label">Available Sizes</p>
+    <h2>For Every Body</h2>
+    <p class="section-subtitle">Designed to fit you beautifully.</p>
+    <div class="size-grid">
+      <div class="size-box"><span class="size-label">XS</span><span class="size-uk">UK 4</span></div>
+      <div class="size-box"><span class="size-label">S</span><span class="size-uk">UK 6</span></div>
+      <div class="size-box"><span class="size-label">M</span><span class="size-uk">UK 10</span></div>
+      <div class="size-box"><span class="size-label">L</span><span class="size-uk">UK 12</span></div>
+      <div class="size-box"><span class="size-label">XL</span><span class="size-uk">UK 14</span></div>
+      <div class="size-box"><span class="size-label">XXL</span><span class="size-uk">UK 16</span></div>
+      <div class="size-box"><span class="size-label">XXL+</span><span class="size-uk">UK 16+</span></div>
+    </div>
+    <div class="size-features">
+      <span>Inclusive Sizing</span>
+      <span>Timeless Streetwear</span>
+      <span>Mix &amp; Match</span>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGING -->
+<section class="packaging">
+  <div class="section-container center">
+    <p class="section-label">Packaging</p>
+    <h2>Unbox Happiness</h2>
+    <p class="section-subtitle">Every order comes with love.</p>
+    <div class="packaging-grid">
+      <div class="packaging-item fade-in">
+        <div class="packaging-icon">📦</div>
+        <h4>Premium Ziplock</h4>
+        <p>Reusable branded ziplock packaging keeps your top safe and stylish.</p>
+      </div>
+      <div class="packaging-item fade-in fade-delay-1">
+        <div class="packaging-icon">💌</div>
+        <h4>Thank You Card</h4>
+        <p>A personal thank you card in every order — because you matter.</p>
+      </div>
+      <div class="packaging-item fade-in fade-delay-2">
+        <div class="packaging-icon">🏷️</div>
+        <h4>Brand Tag</h4>
+        <p>Custom hang tag with care instructions and brand story.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="section-container center">
+    <h2>Connect With Us</h2>
+    <p class="section-subtitle light">Stay updated, get inspired, and shop with ease.</p>
+    <div class="cta-buttons">
+      <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener" class="btn btn-ghost">🛍 Shopee</a>
+      <a href="https://instagram.com/alluapparel" target="_blank" rel="noopener" class="btn btn-ghost">📷 Instagram</a>
+      <a href="https://wa.me/6281529967188" target="_blank" rel="noopener" class="btn btn-ghost">💬 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="section-container">
+    <div class="footer-grid">
+      <div>
+        <h3 class="footer-logo">ALLU</h3>
+        <p>Top for Every Body.<br>Inclusive sizing, timeless streetwear.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <a href="#products">Shop</a>
+        <a href="#mix-match">Mix &amp; Match</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#sizing">Sizing</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="https://shopee.co.id/alluappareal?tab=shop" target="_blank" rel="noopener">Shopee</a>
+        <a href="https://instagram.com/alluapparel" target="_blank" rel="noopener">@alluapparel</a>
+        <a href="https://wa.me/6281529967188" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 ALLU. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/6281529967188" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
